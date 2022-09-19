@@ -13,8 +13,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Deputada Federal Fátima Sena</title>
-          <meta name="description" content="Página Oficial da Deputada Federal Fátima Sena" />
+        <title>Deputada Federal Vanessa Xerente</title>
+          <meta name="description" content="Página Oficial da Deputada Federal Vanessa Xerente" />
             <link rel="icon" href="/Users/ID/Desktop/valtonia/public/favicon.ico" />
       </Head>
 
