@@ -20,7 +20,7 @@ export function ThirdSection() {
                     </div>
 
                     <div className={styles.bodyVideoContainer}>
-                        <ReactPlayer url='https://youtu.be/hh3LmglUbjo' />
+                        <ReactPlayer url='https://youtu.be/OeyUjTW40cM' />
                     </div>
 
                     <div className={styles.footer}>
@@ -111,7 +111,7 @@ export function ThirdSection() {
                             style={{
                                 marginLeft: 100
                             }}
-                            url='https://youtu.be/hh3LmglUbjo'
+                            url='https://youtu.be/OeyUjTW40cM'
                         />
                     </div>
 
