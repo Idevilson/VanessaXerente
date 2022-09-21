@@ -117,8 +117,7 @@ export function SecondSection() {
                         SOBRE MIM
                     </h1>
                     <h1>
-                        Do Taquari para o Tocantins. <br/>
-                        É gente nossa!
+                        Vanessa Xerente
                     </h1>
                 </div>
                 <div className={styles.carousel}>
