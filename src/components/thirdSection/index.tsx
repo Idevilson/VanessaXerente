@@ -120,7 +120,7 @@ export function ThirdSection() {
                             <Image
                                 src="/assets/thirdSection/boy.png"
                                 alt="Ícone de um menino"
-                                width={150}
+                                width={192}
                                 height={192}
                                 quality={100}
                             />
@@ -137,7 +137,7 @@ export function ThirdSection() {
                             <Image
                                 src="/assets/thirdSection/hand.png"
                                 alt="Ícone de uma mão"
-                                width={150}
+                                width={172}
                                 height={192}
                                 quality={100}
                             />
@@ -153,7 +153,7 @@ export function ThirdSection() {
                             <Image
                                 src="/assets/thirdSection/money.png"
                                 alt="Ícone do dinheiro"
-                                width={150}
+                                width={192}
                                 height={192}
                                 quality={100}
                             />
