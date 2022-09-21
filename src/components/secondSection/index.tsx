@@ -35,13 +35,9 @@ export function SecondSection() {
                             height={43}
                             quality={100}
                         />
-                        <Image
-                            src="/assets/secondSection/Text.png"
-                            alt="efeito"
-                            width={565}
-                            height={33}
-                            quality={100}
-                        />
+                        <h1>
+                            Vanessa Xerente
+                        </h1>
                     </div>
 
                     <div className={styles.bodyContent}>
