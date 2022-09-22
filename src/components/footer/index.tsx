@@ -18,17 +18,19 @@ export function Footer() {
                     />
                 </div>
                 <div className={styles.footerTop}>
-                    <Image
-                        src="/assets/footer/siga.png"
-                        alt="Siga as Redes Sociais"
-                        width={590}
-                        height={27}
-                        quality={100}
-                    />
+                    <div  className={styles.sigaImageCenter}>
+                        <Image
+                            src="/assets/footer/siga.png"
+                            alt="Siga as Redes Sociais"
+                            width={590}
+                            height={27}
+                            quality={100}
+                        />
+                    </div>
                     <div className={styles.socialIconsContainer}>
                             <div className={styles.alignIcons}>
                                 <Link href="https://www.instagram.com/vanessasidixerente">
-                                    <a>
+                                    <a  target="_blank">
                                         <Image
                                             src="/assets/header/instagram.png"
                                             alt="ícone do instagram"
@@ -41,22 +43,14 @@ export function Footer() {
 
                             <div className={styles.alignIcons}>
                                 <Link href="https://www.facebook.com/vanessasidixerente.xerente">
-                                    <Image
-                                        src="/assets/header/facebook.png"
-                                        alt="ícone do facebook"
-                                        width={39}
-                                        height={39}
-                                    />
-                                </Link>
-                            </div>
-                            <div className={styles.alignIcons}>
-                                <Link href="">
-                                    <Image
-                                        src="/assets/header/whatsapp.png"
-                                        alt="ícone do whatsapp"
-                                        width={39}
-                                        height={39}
-                                    />
+                                    <a  target="_blank">
+                                        <Image
+                                            src="/assets/header/facebook.png"
+                                            alt="ícone do facebook"
+                                            width={39}
+                                            height={39}
+                                        />
+                                    </a>
                                 </Link>
                             </div>
                     </div>
@@ -75,13 +69,13 @@ export function Footer() {
 
                 <div className={styles.textBottom}>
                     <h1>
-                        LEI Nº9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.554.875/0001-07
+                        LEI N°9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.554.875/0001-07 / 11.274.042/0001-37
                     </h1>
                     <Image
                         src="/assets/footer/PSDB.png"
                         alt="Nome e número da candidata"
-                        width={211}
-                        height={48}
+                        width={127}
+                        height={29}
                         quality={100}
                     />
                 </div>
@@ -117,7 +111,7 @@ export function Footer() {
                 </div>
                 <div className={styles.socialIconsContainerMobile}>
                     <div className={styles.alignIconsMobile}>
-                        <Link href="/">
+                        <Link href="https://www.instagram.com/vanessasidixerente">
                             <a  target="_blank">
                                 <Image
                                     src="/assets/footer/instagramMobile.png"
@@ -130,23 +124,15 @@ export function Footer() {
                     </div>
 
                     <div className={styles.alignIconsMobile}>
-                        <Link href="/">
-                            <Image
-                                src="/assets/footer/facebookMobile.png"
-                                alt="ícone do facebook"
-                                width={91}
-                                height={91}
-                            />
-                        </Link>
-                    </div>
-                    <div className={styles.alignIconsMobile}>
-                        <Link href="/">
-                            <Image
-                                src="/assets/footer/whatsappMobile.png"
-                                alt="ícone do whatsapp"
-                                width={91}
-                                height={91}
-                            />
+                        <Link href="https://www.facebook.com/vanessasidixerente.xerente">
+                            <a  target="_blank">
+                                <Image
+                                    src="/assets/footer/facebookMobile.png"
+                                    alt="ícone do facebook"
+                                    width={91}
+                                    height={91}
+                                />
+                            </a>
                         </Link>
                     </div>
                 </div>
@@ -163,7 +149,7 @@ export function Footer() {
 
                 <div className={styles.textBottomMobile}>
                     <h1>
-                        LEI Nº9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.554.875/0001-07
+                        LEI N°9.504/97 - FEDERAÇÃO PSDB - CIDADANIA. CNPJ: 47.554.875/0001-07 / 11.274.042/0001-37
                     </h1>
                 </div>
             </footer>
