@@ -13,7 +13,7 @@ export function Footer() {
 
                         alt="abstract"
                         layout={"fill"}
-                        objectFit={"fill"}
+                        objectFit={"cover"}
                         quality={100}
                     />
                 </div>
@@ -86,8 +86,8 @@ export function Footer() {
                     <Image
                         src="/assets/footer/valtoniaNumberTypeMobile.png"
                         alt="Nome e número da candidata"
-                        width={978}
-                        height={300}
+                        width={940}
+                        height={312}
                         quality={100}
                     />
                 </div>
@@ -97,6 +97,17 @@ export function Footer() {
                         src="/assets/footer/footerBGMobile.png"
                         alt="abstract"
                         layout="fill"
+                        objectFit={"cover"}
+                        quality={100}
+                    />
+                </div>
+
+                <div className={styles.numberMobile}>
+                    <Image
+                        src="/assets/footer/numberMobile.png"
+                        alt="Nome e número da candidata"
+                        width={664}
+                        height={372}
                         quality={100}
                     />
                 </div>

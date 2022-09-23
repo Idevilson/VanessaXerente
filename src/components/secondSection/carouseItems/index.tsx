@@ -58,9 +58,10 @@ function CarouselItem2() {
             </div>
             <div className={styles.body}>
                <h2 className={styles.text}>
-                   Aos 14 anos de idade, deixei a aldeia <br />
-                   para aprender a Língua Portuguesa e <br />
-                   aprender mais sobre a sociedade não indígena.
+                   Aos 14 anos de idade, deixei <br/>
+                   a aldeia para aprender a<br/>
+                   Língua Portuguesa e aprender<br/>
+                   mais sobre a sociedade não indígena.
                 </h2>
             </div>
             <div className={styles.footer}>
